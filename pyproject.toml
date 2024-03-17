@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goit-pycore-hw-08"
+version = "0.1.0"
+description = "use this to manage to your contacts"
+authors = ["Ekimov Sergey <es281082@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
